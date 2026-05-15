@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #17211d;
+  background: #f7faf8;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  transition: color 150ms ease, background-color 150ms ease;
+}
